@@ -8,7 +8,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 public class Task2Test
 {
     @Test
-    void AreaWithConstructor()
+    void AreaWithConstructorTest()
     {
         Rectangle rectangle = new Rectangle(20, 10);
         Square square = new Square(20);
@@ -17,7 +17,7 @@ public class Task2Test
     }
 
     @Test
-    void AreaWithSetAndGet()
+    void AreaWithSetAndGetTest()
     {
         Rectangle rectangle = new Rectangle(20, 10);
         Square square = new Square(20);
