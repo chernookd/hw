@@ -7,6 +7,7 @@ public class Task5 {
     private static final String DESC = "DESC";
 
     public String[] sortContacts(String[] contacts, String sort) throws Exception {
+
         if (contacts == null || Arrays.equals(contacts, new String[0])) {
             return new String[0];
         }

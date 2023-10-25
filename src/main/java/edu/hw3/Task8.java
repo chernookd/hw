@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Task8<T> implements Iterator<T> {
     private final List<T> collection;
+
     private int currentIndex;
 
     public Task8(List<T> collection) {

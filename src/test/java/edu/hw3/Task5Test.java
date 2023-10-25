@@ -25,6 +25,7 @@ public class Task5Test {
 
     @Test
     public void sortContacts() throws Exception {
+
         Task5 task5 = new Task5();
         String[] contacts = {"Paul Erdos", "Leonhard Euler", "Carl Gauss"};
         String[] sortedContacts = task5.sortContacts(contacts, "DESC");

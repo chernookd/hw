@@ -4,7 +4,6 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class Task6 implements StockMarket {
-
     private PriorityQueue<Stock> stockQueue;
 
     public void createQueue() {

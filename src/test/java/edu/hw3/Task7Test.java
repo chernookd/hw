@@ -16,6 +16,7 @@ public class Task7Test {
     }
     @Test
     void task7FalseTest () {
+
         Comparator<String> comparator = Task7.nullComparator();
         TreeMap<String, Object> tree = new TreeMap<>(comparator);
         tree.put("s", "test");

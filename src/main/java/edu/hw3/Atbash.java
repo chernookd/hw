@@ -25,6 +25,7 @@ public class Atbash {
             mirrorLetters.put(alphabet[i], alphabet[k]);
         }
         return mirrorLetters;
+
     }
 
     public static String atbash(String unmodifiedString) {

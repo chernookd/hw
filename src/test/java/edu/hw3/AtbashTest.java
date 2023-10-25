@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class AtbashTest {
+    
     @Test
     void atbashGoodCaseTest(){
         String unencodedString = "Any fool can write code that a computer can understand." +
