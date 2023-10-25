@@ -22,7 +22,6 @@ public class Task2 {
     }
 
     public static ArrayList<String> clusterize(String str) {
-
         if (str == null) {
             return null;
         }

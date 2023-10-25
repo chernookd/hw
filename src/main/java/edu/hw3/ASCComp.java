@@ -7,7 +7,6 @@ public class ASCComp implements Comparator<String> {
     @Override
     @SuppressWarnings("ReturnCount")
     public int compare(String string1, String string2) {
-
         String[] stringArray1 = string1.split(" ");
         String[] stringArray2 = string2.split(" ");
         if (Arrays.equals(stringArray1, new String[0]) && !Arrays.equals(stringArray2, new String[0])) {

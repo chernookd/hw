@@ -9,7 +9,6 @@ public class Task2Test {
     @Test
     void Task2GoodCaseTest(){
         String firstTestString = "()()()";
-
         ArrayList<String> firstTestAns = new ArrayList<>() {{
             add("()");
             add("()");

@@ -9,7 +9,6 @@ import java.util.Map;
 
 public class Task3Test {
 
-
     @Test
     void Task3WithStringsTest() {
         List<String> strings = Arrays.asList("a", "bb", "a", "bb", "ccc");

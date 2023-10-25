@@ -11,7 +11,6 @@ public class Task4 {
 
     private static final Map<Integer, String> ROMAN_SYMBOLS_MAP = new LinkedHashMap<>();
 
-
     @SuppressWarnings("MagicNumber")
     private static void createRomanNumbersMap() {
         ROMAN_SYMBOLS_MAP.put(1000, "M");

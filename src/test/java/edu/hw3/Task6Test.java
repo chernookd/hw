@@ -49,7 +49,6 @@ public class Task6Test {
 
     @Test
     public void EmptyTest() {
-
         assertNull(stockMarket.mostValuableStock());
     }
 }

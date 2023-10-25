@@ -12,7 +12,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class Task8Test {
     @Test
     public void testIterator() {
-
         List<String> collection = new ArrayList<>(Arrays.asList("one", "two", "three"));
         Task8<String> task8 = new Task8<>(collection);
 

@@ -5,7 +5,6 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class Task4Test {
-
     @Test
     public void Task4withValidNumber() throws Exception {
         int num1 = 12;
