@@ -9,7 +9,6 @@
     <Appenders>
         <Console name="STDOUT_PLAIN" target="SYSTEM_OUT">
             <PatternLayout
-                disableAnsi="false"
                 pattern="%d{HH:mm:ss.SSS} %highlight{%-5p} [%-15.15thread] %-15.15logger{20} -- %highlight{%m}%n"
             />
         </Console>
@@ -23,7 +22,7 @@
 
         <Logger name="edu" level="TRACE"/>
 
-        <Root level="INFO">
+        <Root level="WARN">
             <AppenderRef ref="STDOUT_PLAIN"/>
         </Root>
     </Loggers>
